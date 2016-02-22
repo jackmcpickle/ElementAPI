@@ -1,8 +1,18 @@
 {
+    "name": "pixelandtonic/elementapi",
+    "description": "Create a JSON API for your elements in Craft.",
+    "authors": [
+        {
+            "name": "Pixel & Tonic",
+            "email": "support@pixelandtonic.com"
+        }
+    ],
     "config": {
         "vendor-dir": "elementapi/vendor"
     },
+    "type": "craft-plugin",
     "require": {
-        "league/fractal": "^0.12.0"
+        "league/fractal": "^0.12.0",
+        "composer/installers": "~1.0"
     }
 }
